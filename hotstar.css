@@ -1,0 +1,203 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    background-color: rgb(20, 26, 40);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-dec {
+    text-decoration: none;
+}
+
+/* header left section */
+.header {
+    background-color: rgb(20, 26, 40);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.header .row .section1 {
+    padding: 16px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .row .section1 img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.header .row .section1 .fa {
+    font-size: 19px;
+    color: rgb(161, 163, 169);
+}
+
+.header .row .section1 .nav a li,
+.section2 a {
+    color: rgb(161, 163, 169);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header .row .section1 ul .kids {
+    font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+    color: rgb(255, 170, 5) !important;
+}
+
+/* header right section */
+
+.header .row .section2 {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section2 .input {
+    position: relative;
+}
+
+.section2 .input i {
+    position: absolute;
+    right: 28px;
+    top: 5px;
+    color: rgb(106, 115, 119);
+}
+
+.section2 .input input {
+    outline: none;
+    /* border: none; */
+    border: solid rgb(20, 26, 40);
+    border-bottom: 2px solid rgb(160, 163, 168);
+    width: 15rem;
+    margin-right: 25px;
+    padding: 0;
+    background-color: rgb(20, 26, 40);
+    color: rgb(152, 163, 169);
+}
+
+.section2 .input input:hover,
+.section2 .input input:active {
+    width: 20rem;
+    transition-delay: 200sec;
+    border-bottom: 2px solid rgb(89, 144, 198);
+}
+
+.section2 .input input::placeholder {
+    color: white;
+}
+
+.section2 .btn {
+    margin-right: 20px;
+}
+
+.section2 a {
+    margin-right: 25px;
+}
+
+/* main image */
+
+.container-fluid {
+    margin-top: 5rem;
+}
+
+#img0 {
+    margin: 0;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+/* subtittle and sub-images */
+
+.part1 img {
+    height: 197px;
+    width: 148px;
+    margin: 5px;
+    border-radius: 0.5rem;
+}
+
+.part2 img {
+    width: 200.38px;
+    height: 113.53px;
+    margin: 5px;
+    border-radius: 0.5rem;
+}
+
+.part1 img:hover,
+.part2 img:hover {
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+
+.part1,
+.part2 {
+    margin-left: 1.5rem;
+}
+
+.row .subtittle {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    /* text-decoration: none; */
+    white-space: normal;
+    padding: 10px 0 10px 2.5rem;
+    /* border: 1px solid white; */
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: rgb(20, 26, 40);
+    /* margin-left: 1.5rem; */
+}
+
+.footer .footer1 {
+    margin-top: 5rem;
+    margin-left: 0.4rem;
+}
+
+.footer .footer1 .left a,
+.footer .footer1 .left p {
+    text-decoration: none;
+    margin-left: 2.1rem;
+    text-transform: capitalize;
+    color: rgb(206, 189, 169);
+}
+
+.footer .footer1 .left a:hover {
+    color: blue;
+}
+
+.footer .footer1 .left p {
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.footer .footer1 .left .d-flex a,
+.footer .footer1 .col-12 div p {
+    color: rgb(206, 189, 169);
+    font-size: 18px;
+}
+
+.footer .footer1 .col-12 div a i {
+    font-size: 40px;
+    padding: 0 5px;
+}
+
+.footer .footer1 .col-3 div {
+    text-align: center;
+    padding: 15px 0;
+}
