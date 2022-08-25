@@ -160,6 +160,7 @@ body {
     background-color: rgb(20, 26, 40);
     /* margin-left: 1.5rem; */
     overflow-x: hidden;
+    padding-top: 5rem;
 }
 
 .footer .footer1 {
