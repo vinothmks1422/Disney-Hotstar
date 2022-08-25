@@ -199,3 +199,24 @@ body {
     text-align: center;
     padding: 15px 0;
 }
+
+.footer .footer1 .right .logo a img {
+    width: 8rem;
+    height: 3rem;
+    padding-left: 5px;
+}
+
+.footer .footer1 .right .logo {
+    padding-left: 2rem;
+}
+
+@media only screen and (max-width:600px) {
+    .header .body0 .section1 .nav, .header .body0 .section2 a{
+        display: none;
+    }
+    .header .body0 {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+}
