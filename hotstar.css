@@ -205,6 +205,7 @@ body {
     width: 8rem;
     height: 3rem;
     padding-left: 5px;
+    border-radius: 10px;
 }
 
 .footer .footer1 .right .logo {
